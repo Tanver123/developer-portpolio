@@ -10,13 +10,25 @@ body{
 h1 {
     font-size: 50px;
 }
+.dreem-area{
+    width: 50%;
+    box-shadow: 10px 10px 40px gray;
+    margin: 50px;
+    padding: 20px;
 
+}
+.experience-manu{
+    font-size: 40px;
+}
 .button-design{
     text-decoration: none;
 }
 section{
-    display: flex;
     padding-bottom: 150px;
+
+}
+.flexible-content{
+    display: flex;
 
 }
 .top-banner{
@@ -29,14 +41,23 @@ section{
    
 }
 .contant{
-    margin-left: 50px;
+    max-width: 39%;
+    margin: 0 auto;
 }
 .baneer-design img{
     width: 80%;
-    margin-left: 50px;
-
+    margin-left: 80px;
 }
-
+.border-design{
+    border-left:5px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.border-design2{
+    border-left:5px solid;
+    border-image: linear-gradient(180deg, rgb(23, 9, 71), rgb(223, 200, 196));
+    border-image-slice: 1;
+}
 .button-design{
     background: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 20px;
@@ -53,4 +74,8 @@ section{
 }
 p{
     color: dimgrey;
+}
+ 
+footer p {
+    text-align: center;
 }
